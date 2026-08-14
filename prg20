@@ -2,3 +2,7 @@ Query the total population of all cities in CITY where District is California.
 SELECT SUM(Population)
 FROM CITY
 WHERE District = 'California';
+Query the average population of all cities in CITY where District is California.
+SELECT AVG(population)
+FROM CITY
+WHERE District='California';
